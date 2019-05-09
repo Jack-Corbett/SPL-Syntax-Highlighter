@@ -63,11 +63,11 @@
       }
       {
         'match' : '(whileInput|if|else)'
-        'name' : 'string.spl'
+        'name' : 'entity.name.spl'
       }
       {
         'match' : '(true|false)'
-        'name' : 'text.spl'
+        'name' : 'string.spl'
       }
       {
         'match' : '(\\b[a-z][a-zA-Z0-9]*)'
