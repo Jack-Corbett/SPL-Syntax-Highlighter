@@ -1,0 +1,17 @@
+{
+  "name": "spl",
+  "version": "0.0.0",
+  "description": "SPL language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "bugs": {
+    "url": "/issues"
+  },
+  "license": "MIT"
+}

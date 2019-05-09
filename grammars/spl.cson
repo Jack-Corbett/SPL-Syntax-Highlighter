@@ -1,0 +1,108 @@
+'fileTypes' : [
+  'spl'
+]
+'name' : 'spl'
+'patterns' : [
+  {
+    'include' : '#main'
+  }
+]
+'scopeName' : 'source.spl'
+'uuid' : ''
+'repository' : {
+  'main' : {
+    'patterns' : [
+      {
+        'include' : '#numeric'
+      }
+      {
+        'begin' : '(\\{)'
+        'beginCaptures' : {
+          '1' : {
+            'name' : 'punctuation.spl'
+          }
+        }
+        'patterns' : [
+          {
+            'include' : '#main__1'
+          }
+        ]
+        'end' : '(\\})'
+        'endCaptures' : {
+          '1' : {
+            'name' : 'punctuation.spl'
+          }
+        }
+      }
+      {
+        'match' : '(;)'
+        'name' : 'punctuation.spl'
+      }
+      {
+        'begin' : '(\\()'
+        'beginCaptures' : {
+          '1' : {
+            'name' : 'punctuation.spl'
+          }
+        }
+        'patterns' : [
+          {
+            'include' : '#main__2'
+          }
+        ]
+        'end' : '(\\))'
+        'endCaptures' : {
+          '1' : {
+            'name' : 'punctuation.spl'
+          }
+        }
+      }
+      {
+        'match' : '(input|output)'
+        'name' : 'markup.spl'
+      }
+      {
+        'match' : '(whileInput|if|else)'
+        'name' : 'meta.spl'
+      }
+      {
+        'match' : '(true|false)'
+        'name' : 'text.spl'
+      }
+      {
+        'match' : '(\\b[a-z][a-zA-Z0-9]*)'
+        'name' : 'keyword.spl'
+      }
+      {
+        'match' : '(--.*)'
+        'name' : 'comment.spl'
+      }
+    ]
+  }
+  'main__1' : {
+    'patterns' : [
+      {
+        'include' : '#main'
+      }
+    ]
+  }
+  'main__2' : {
+    'patterns' : [
+      {
+        'include' : '#main'
+      }
+      {
+        'match' : '(,)'
+        'name' : 'punctuation.spl'
+      }
+    ]
+  }
+  'numeric' : {
+    'patterns' : [
+      {
+        'match' : '(\\b\\d+)'
+        'name' : 'constant.numeric.spl'
+      }
+    ]
+  }
+}
