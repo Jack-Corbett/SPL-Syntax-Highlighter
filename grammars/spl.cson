@@ -59,11 +59,11 @@
       }
       {
         'match' : '(input|output)'
-        'name' : 'markup.spl'
+        'name' : 'entity.name.type.spl'
       }
       {
         'match' : '(whileInput|if|else)'
-        'name' : 'meta.spl'
+        'name' : 'string.spl'
       }
       {
         'match' : '(true|false)'
