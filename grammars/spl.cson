@@ -1,7 +1,7 @@
 'fileTypes' : [
   'spl'
 ]
-'name' : 'spl'
+'name' : 'SPL'
 'patterns' : [
   {
     'include' : '#main'
