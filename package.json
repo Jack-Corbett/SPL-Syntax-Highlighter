@@ -8,10 +8,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": ".git"
+    "url": "https://github.com/Jack-Corbett/SPL-Syntax-Highlighter.git"
   },
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/Jack-Corbett/SPL-Syntax-Highlighter/issues"
   },
   "license": "MIT"
 }
