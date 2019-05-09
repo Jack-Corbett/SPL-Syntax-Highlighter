@@ -63,7 +63,7 @@
       }
       {
         'match' : '(whileInput|if|else)'
-        'name' : 'entity.name.spl'
+        'name' : 'entity.name.function.spl'
       }
       {
         'match' : '(true|false)'
