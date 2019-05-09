@@ -1,5 +1,5 @@
 {
-  "name": "spl",
+  "name": "SPL Syntax Highlighter",
   "version": "0.1.0",
   "description": "SPL language support in Atom",
   "engines": {
